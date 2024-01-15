@@ -1,0 +1,37 @@
+{
+  "name": "lithicsoft-discord/supporter",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/command/lithicsoft.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "lithicsoft"
+      }
+    },
+    "functions/events/discord/command/unet.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "unet"
+      }
+    },
+    "functions/events/discord/command/mail.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "mail"
+      }
+    },
+    "functions/events/discord/command/links.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "links"
+      }
+    },
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    }
+  }
+}

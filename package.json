@@ -1,0 +1,8 @@
+{
+  "name": "basic-discord-example",
+  "author": "lithicsoft-discord",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}
